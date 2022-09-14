@@ -1,0 +1,217 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+     /* color: rgb(200, 176, 176); */
+        
+}
+
+.container
+{
+    width: 650px;
+    height : 500px;
+    border: 2px solid;
+    border-radius: 8px;
+    overflow: hidden;
+   margin: auto;
+
+
+}
+
+.flex1
+{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    height: 100%;
+}
+
+.left
+{
+    
+    margin: 0;
+    border-right: 1px solid;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to bottom,#24D07A 30%,#18AD87,#0C8E9C);
+
+}
+
+.neustar-logo img
+{
+ width: 58%;
+ height: auto;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .right{
+        visibility:hidden;
+    }
+    
+} 
+
+
+.right
+{
+    
+    
+height: 100%;
+width: 50%;
+ text-align: center;
+ position: relative;
+
+
+}
+
+h2:nth-of-type(1)
+{
+    color: #C446B4;
+}
+
+.underscore
+{
+    position: absolute;
+    left: 136px;
+    top:43px;
+    color: #C446B4;
+}
+
+.login-info
+{
+    position: absolute;
+    text-align: left;
+    left: 64px;
+    margin-top: 25px;
+    color: darkgreen;
+}
+#email,#password
+{
+    text-decoration: none;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 28px;
+    border: 1px solid green;
+    border-radius: 3px;
+
+}
+
+
+
+.remember-me
+{
+    position:absolute;
+    top: 250px;
+    /* border: 1px solid; */
+    left: 62px;
+    font-size: 14px;
+    
+
+
+}
+
+
+#remember
+{
+    position: relative;
+    margin-right: 2px;
+    top:2px;
+    border-radius: 50%;
+
+}
+
+.checkbox
+{
+    margin: 0;
+    
+
+}
+
+
+.submit-btn
+{
+    position: absolute;
+    top:300px;
+    width: 100%;
+}
+
+.submit-btn button
+{
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bold;
+    color: white;
+    background-color: #2DB56E;
+}
+
+.OR
+{
+    position: absolute;
+    /* border: 1px solid; */
+    width: 100%;
+    bottom: 100px;
+    font-size: 14px;
+    color:cadetblue;
+    
+}
+
+.left-dash
+{
+    position: absolute;
+    left: 38px;
+    top: 25px;
+    font-weight: 50;
+    font-size: 4px;
+}
+
+.right-dash
+{
+    position: absolute;
+    right: 38px;
+    top: 25px;
+    font-weight: 50;
+    font-size: 4px;
+}
+
+.or 
+{
+    font-weight:lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 0 3px 0 3px;
+    color:  rgba(71, 75, 71, 0.35)
+}
+
+.login-icon-container
+{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.icon img
+{
+  width: 35px;
+  /* border: 1px solid; */
+  padding: 4px;
+
+}
+
+.icon img:hover
+{
+    border-radius: 4px;
+    background-color: rgba(192, 172, 172,0.3 )
+    
+}
+
+
